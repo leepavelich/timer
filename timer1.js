@@ -3,7 +3,7 @@ const times = process.argv
   .map(x => Number(x))
   .filter(x => x >= 0)
   .filter(x => typeof x === 'number')
-  .map(x => x * 10);
+  .map(x => x * 1000);
 
 if (!times.length) return;
 
